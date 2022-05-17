@@ -35,7 +35,7 @@ Attention: Please run this project on linux. In different pytorch environment, t
 
 # quickly start a simulation
 
-1.  generate simulation data
+1. generate simulation data
 
    Go to the folder `./generate_data` and then run this command:
 

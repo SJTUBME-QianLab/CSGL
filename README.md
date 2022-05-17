@@ -35,13 +35,25 @@ Attention: Please run this project on linux. In different pytorch environment, t
 
 # quickly start a simulation
 
-Go to the folder `./simulation/` and then run the `main.py` by this command:
+1.  generate simulation data
 
-```
-python main.py --data_name covLap2.0_de1.0_seed2022 --L1 0.2 --L21 0.05 --Lg 1.0 --Lcon 0.3 --lr 0.1
-```
+   Go to the folder `./generate_data` and then run this command:
 
-After training, the weights will be saved in `./result` folder.
+   ```shell
+   python simulate_individual.py --cov Laplacian --rho 2.0 --seed 2022
+   ```
+
+   The data will be saved in  `./sim_data` folder.
+
+2. train and test 
+
+   Go to the folder `./simulation` and then run the `main.py` by this command:
+
+   ```shell
+   python main.py --data_name covLap2.0_de1.0_seed2022 --L1 0.2 --L21 0.05 --Lg 1.0 --Lcon 0.3 --lr 0.1
+   ```
+
+   The weights and metrices will be saved in `./result` folder.
 
 # Contact
 

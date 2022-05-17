@@ -1,0 +1,12 @@
+------------------ start ------------------
+seed : 2022
+note : 
+save_dir : /home/data/tangxl/ContrastSGL/sim_data/covLap2.0_de1.0_seed2022
+y_dis : linear
+cov : Laplacian
+rho : 2.0
+delta : 1.0
+beta_sigma : 0.0
+sample : 500
+name : covLap2.0_de1.0_seed2022
+------------------- end -------------------

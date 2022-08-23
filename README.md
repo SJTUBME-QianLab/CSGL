@@ -60,5 +60,5 @@ Attention: Please run this project on linux. In different pytorch environment, t
 For any question, feel free to contact
 
 ```
-Xiahan Chen : tangxl20@sjtu.edu.cn
+Xinlu Tang : tangxl20@sjtu.edu.cn
 ```

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Contrastive Spatial Group LASSO for Biomarker Discovery in DNA Methylation Data"
+authors:
+  - family-names: Tang
+    given-names: Xinlu
+  - family-names: Mo
+    given-names: Zhanfeng
+  - family-names: Guo
+    given-names: Rui
+  - family-names: Chang
+    given-names: Cheng
+  - family-names: Qian
+    given-names: Xiaohua
